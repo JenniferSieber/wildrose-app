@@ -22,7 +22,6 @@ export default function Header() {
 
   return (
     <header className="bg-slate-200 shadow-md">
-
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link href="/">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
@@ -59,8 +58,6 @@ export default function Header() {
               About
             </li>
           </Link>
-         
-          <h3>Sign In</h3>
           <SignedIn>
             <UserButton />
           </SignedIn>
@@ -73,7 +70,6 @@ export default function Header() {
           </SignedOut>
         </ul>
       </div>
-
     </header>
   );
 }
