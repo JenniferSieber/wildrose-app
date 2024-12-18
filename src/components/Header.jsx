@@ -1,6 +1,6 @@
 "use client";
 
-// import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 // import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -61,7 +61,7 @@ export default function Header() {
           </Link>
          
           <h3>Sign In</h3>
-          {/* <SignedIn>
+          <SignedIn>
             <UserButton />
           </SignedIn>
           <SignedOut>
@@ -70,7 +70,7 @@ export default function Header() {
                 Sign In
               </li>
             </Link>
-          </SignedOut> */}
+          </SignedOut>
         </ul>
       </div>
 
