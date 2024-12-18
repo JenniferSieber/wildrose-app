@@ -26,7 +26,7 @@ export default function Header() {
         <Link href="/">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
             <span className="text-red-600 px-1">Wild Rose</span>
-            <span className="text-slate-700">Estates</span>
+            <span className="text-slate-700">Real Estate</span>
           </h1>
         </Link>
 
