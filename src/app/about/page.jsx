@@ -5,7 +5,7 @@ export default function About() {
         <span className="text-red-600 px-1">Wild Rose</span>
         Real Estate
         </h1>
-      <p className='mb-4 text-slate-700'>Wild Rose Estates is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.</p>
+      <p className='mb-4 text-slate-700'>The Wild Rose Real Estate Agency is a leader in the industry that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service -delivering an easy experience for our clients.</p>
       <p className='mb-4 text-slate-700'>
       Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.
       </p>
