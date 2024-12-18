@@ -19,14 +19,13 @@ export default function Header() {
     e.preventDefault();
     console.log(e);
   };
-
   return (
     <header className="bg-slate-200 shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link href="/">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
             <span className="text-red-600 px-1">Wild Rose</span>
-            <span className="text-slate-700">Real Estate</span>
+            {/* <span className="text-slate-700">Real Estate</span> */}
           </h1>
         </Link>
 
